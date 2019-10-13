@@ -34,14 +34,30 @@
         <dependencies>
             <dependency>
                 <groupId>miven.java</groupId>
+                <artifactId>miven-core</artifactId>
+                <version>${miven.java.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>miven.java</groupId>
                 <artifactId>miven-entity</artifactId>
                 <version>${miven.java.version}</version>
             </dependency>
             <dependency>
                 <groupId>miven.java</groupId>
-                <artifactId>miven-starter-logging</artifactId>
+                <artifactId>miven-logging</artifactId>
                 <version>${miven.java.version}</version>
             </dependency>
+            <dependency>
+                <groupId>miven.java</groupId>
+                <artifactId>miven-spring-boot</artifactId>
+                <version>${miven.java.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>miven.java</groupId>
+                <artifactId>miven-starter</artifactId>
+                <version>${miven.java.version}</version>
+            </dependency>
+
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
