@@ -25,7 +25,8 @@
 
         <commons-lang3.version>3.9</commons-lang3.version>
         <fastjson.version>1.2.66</fastjson.version>
-        <javaee-api.version>8.0.1</javaee-api.version>
+        <javax.javaee-api.version>8.0.1</javax.javaee-api.version>
+        <javax.persistence-api.version>1.0</javax.persistence-api.version>
         <mapper-spring-boot-starter.version>2.1.5</mapper-spring-boot-starter.version>
         <mapper-generator.version>1.1.5</mapper-generator.version>
         <mybatis.version>3.5.0</mybatis.version>
@@ -54,7 +55,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
 
             <dependency>
                 <groupId>miven.java</groupId>
@@ -89,11 +89,6 @@
 
 
             <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-lang3</artifactId>
-                <version>${commons-lang3.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
@@ -101,12 +96,22 @@
             <dependency>
                 <groupId>javax</groupId>
                 <artifactId>javaee-api</artifactId>
-                <version>${javaee-api.version}</version>
+                <version>${javax.javaee-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.persistence</groupId>
+                <artifactId>persistence-api</artifactId>
+                <version>${javax.persistence-api.version}</version>
             </dependency>
             <dependency>
                 <groupId>net.logstash.logback</groupId>
                 <artifactId>logstash-logback-encoder</artifactId>
                 <version>${logstash-logback-encoder.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.mybatis</groupId>
